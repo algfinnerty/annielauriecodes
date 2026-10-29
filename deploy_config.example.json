@@ -1,0 +1,5 @@
+{
+  "bucket": "REPLACE_WITH_YOUR_BUCKET_NAME",
+  "region": "us-east-1",
+  "prefix": ""
+}

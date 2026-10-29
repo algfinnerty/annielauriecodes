@@ -1,0 +1,33 @@
+main{    
+    padding: 10rem 1rem;
+}
+
+section{
+    background-color: var(--color-white);
+    padding: 1rem .5rem;
+    margin: 1.5rem 0;
+    border: 3px solid var(--color-ink);
+    border-radius: 5px;
+}
+
+
+sidebar{
+    display: none;
+}
+
+sidebar nav{
+    margin-left: 1rem;
+}
+article{margin: 1rem 0; padding: 1rem 1.5rem;background-color:aliceblue;}
+h2{margin-top: .5rem;}
+ul{padding-left:0;}
+li{list-style: none;}
+a{color: var(--color-teal);}
+
+th{width:8rem;text-align: left;}
+
+@media (min-width: 700px) {
+    main{margin-left: 20vw; padding: 3rem 10rem 10rem 0rem;}
+    sidebar{display: block; position: fixed;top: 15rem;left:0;}
+    section{padding: 1rem 3rem;}
+}

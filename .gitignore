@@ -1,0 +1,8 @@
+# Private deployment target/configuration
+deploy_config.json
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
