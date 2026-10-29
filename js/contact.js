@@ -1,6 +1,6 @@
 const contactForm = document.querySelector('.contact-form');
 const formStatus = document.querySelector('#form-status');
-const lambdaEndpoint = window.AWS_LAMBDA_ENDPOINT || 'https://example.execute-api.us-east-1.amazonaws.com/default/contact-form';
+const lambdaEndpoint = window.AWS_LAMBDA_ENDPOINT || 'https://5narx7cootglfd3dyokwjee7p40yelgs.lambda-url.us-east-1.on.aws/';
 
 function setFormStatusMessage(message, isError = false) {
 	if (!formStatus) return;
